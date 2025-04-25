@@ -1,0 +1,133 @@
+<!-- Footer Section Begin -->
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <h1 class="text-white">HariOm Sai Sadan</h1>
+                        </div>
+                        <p>A peaceful and secure residential society for every family.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 border-start border-end border-light">
+                    <h5 class="fw-semibold text-center text-white">Quick Links</h5>
+                    <hr class="border-light">
+                    <ul class="list-unstyled text-center mt-3">
+                        <li><a href="index.html" class="text-white text-decoration-none d-block py-1">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none d-block py-1">About Us</a></li>
+                        <li><a href="documents.html" class="text-white text-decoration-none d-block py-1">Documents</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none d-block py-1">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5 class="fw-semibold text-white">Contact Info</h5>
+                    <hr class="border-light text-white">
+                    <div class="mb-1 text-white"><i class="bi bi-geo-alt-fill text-white"></i> Near XYZ Temple, Pune, MH, India</div>
+                    <div class="mb-1 text-white"><i class="bi bi-envelope-fill"></i> info@hariomsaisadan.com</div>
+                    <div class="text-white"><i class="bi bi-telephone-fill "></i> +91 98765 43210</div>
+
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.522004892283!2d72.82041047520669!3d19.12861438208682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b61e63427121%3A0xfdb3756c1a12b83!2sHari%20Om%20Sai%20Sadan!5e0!3m2!1sen!2sin!4v1745605170097!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="footer__copyright__text">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p>Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            HariOm Sai Sadan | DEVELOPED BY  <a href="https://www.theveenagroup.com/" target="_blank">VEENA iNFOTECH</a>
+                        </p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Styling for hover and spacing -->
+<style>
+    .footer-link:hover {
+        color: #0d6efd !important;
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+
+    .footer__newslatter input.form-control {
+        border-radius: 0;
+        border-right: none;
+    }
+
+    .footer__newslatter .btn {
+        border-radius: 0;
+    }
+</style>
+
+<!-- GSAP + ScrollTrigger Animations -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from("#footerLogo", {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#footerLogo",
+            start: "top bottom"
+        }
+    });
+
+    gsap.from("#footerLinks1", {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        delay: 0.2,
+        scrollTrigger: {
+            trigger: "#footerLinks1",
+            start: "top bottom"
+        }
+    });
+
+    gsap.from("#footerLinks2", {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        delay: 0.4,
+        scrollTrigger: {
+            trigger: "#footerLinks2",
+            start: "top bottom"
+        }
+    });
+
+    gsap.from("#footerNewsletter", {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        delay: 0.6,
+        scrollTrigger: {
+            trigger: "#footerNewsletter",
+            start: "top bottom"
+        }
+    });
+
+    gsap.from("#footerCredit", {
+        opacity: 0,
+        y: 20,
+        duration: 1,
+        delay: 0.3,
+        scrollTrigger: {
+            trigger: "#footerCredit",
+            start: "top bottom"
+        }
+    });
+</script>
