@@ -10,7 +10,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>HariOmSaiSadan</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap"
@@ -43,8 +43,6 @@
         .pop-up {
             z-index: 999999;
         }
-
-      
     </style>
 
     <style>
@@ -81,11 +79,6 @@
                                 <p>"Co-operation is our motto" - A community built on unity, transparency, and
                                     collective well-being in the heart of Andheri.</p>
                                 <a href="#about" class="primary-btn">Discover More <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 order-2 order-md-2">
@@ -136,7 +129,7 @@
                         <div class="banner__item__text">
                             <h2>Established in 1981</h2>
                             <p>Bom/Hsg/K-6963 Registration</p>
-                            <a href="#about">Learn More</a>
+                            <a href="about.php">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +142,7 @@
                         <div class="banner__item__text">
                             <h2>Prime Location</h2>
                             <p>4 Bungalows, Andheri (W)</p>
-                            <a href="#contact">View Map</a>
+                            <a href="https://maps.google.com/maps?ll=19.128614,72.822985&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=1142567776223832963">View Map</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +154,7 @@
                         <div class="banner__item__text">
                             <h2>100+ Families</h2>
                             <p>Four decades of community living</p>
-                            <a href="#testimonials">Resident Stories</a>
+                            <a href="about.php">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +195,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="#governance" class="primary-btn">Our Governance</a>
+                        <a href="about.php" class="primary-btn mt-4">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -251,9 +244,10 @@
             </div>
             <!-- Latest Blog Section Begin -->
             <div class="row">
-                <a data-bs-toggle="modal" data-bs-target="#imp-doc1"
-                    class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <a data-bs-toggle="modal" data-bs-target="#imp-doc1"
+                        class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
                         <div class="blog__item">
                             <div class="blog__item__pic set-bg" data-setbg="img/Documents/HOSS-CHS-Pre-79A-File.png">
                             </div>
@@ -262,11 +256,11 @@
                                 <h5>Hari Om Sai Sadan CHS Pre 79A File</h5>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
                 <div class="row mt-5">
                     <div class="col-lg-12 text-center">
-                        <a href="documents.html" class="primary-btn">View All Documents</a>
+                        <a href="documents.php" class="primary-btn">View All Documents</a>
                     </div>
                 </div>
             </div>
@@ -279,7 +273,9 @@
         <div class="banner-bg position-absolute top-0 start-0 w-100 h-100" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); 
               background-size: cover; 
               background-position: center;
-              z-index: -1;  filter: blur(10px)">
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+              z-index: -1;  filter: blur(10px); filter: brightness(30%);">
         </div>
 
         <!-- Overlay for better text readability -->
@@ -290,10 +286,10 @@
             <div class="row align-items-center">
                 <!-- Left Column - Text -->
                 <div class="col-lg-8 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold text-dark mb-3">
+                    <h2 class="display-5 fw-bold text-white mb-3">
                         Have questions about our society?
                     </h2>
-                    <p class="lead text-dark mb-0">
+                    <p class="lead text-white mb-0">
                         Our committee members are ready to assist you with any
                         inquiries.
                     </p>
@@ -301,7 +297,7 @@
 
                 <!-- Right Column - Button -->
                 <div class="col-lg-4 text-lg-end text-center">
-                    <a href="#contact" class="btn btn-light btn-lg px-4 py-3 rounded-pill fw-bold shadow-sm">
+                    <a href="contact.php" class="btn btn-light btn-lg px-4 py-3 rounded-pill fw-bold shadow-sm">
                         Contact Us <i class="fas fa-arrow-right ms-2"></i>
                     </a>
                 </div>

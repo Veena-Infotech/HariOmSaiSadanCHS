@@ -9,7 +9,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>HariOmSaiSadan | Documents</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap"
@@ -24,6 +24,23 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        /* Set a max height for the modal body and allow overflow */
+        .modal-body {
+            max-height: 80vh;
+            /* 80% of the viewport height, you can adjust this */
+            overflow-y: auto;
+            /* Enable vertical scrolling */
+            padding: 10px;
+        }
+
+        .pop-up {
+            z-index: 999999;
+        }
+
+      
+    </style>
+
 </head>
 
 <body>
@@ -48,9 +65,9 @@
             </div>
             <!-- Latest Blog Section Begin -->
             <div class="row">
-                <a data-bs-toggle="modal" data-bs-target="#imp-doc1"
-                    class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
                     <div class="col-lg-4 col-md-6 col-sm-6">
+                    <a data-bs-toggle="modal" data-bs-target="#imp-doc1"
+                    class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
                         <div class="blog__item">
                             <div class="blog__item__pic set-bg" data-setbg="img/Documents/HOSS-CHS-Pre-79A-File.png">
                             </div>
@@ -59,13 +76,8 @@
                                 <h5>Hari Om Sai Sadan CHS Pre 79A File</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
-                </a>
-                <div class="row mt-5">
-                    <div class="col-lg-12 text-center">
-                        <a href="documents.html" class="primary-btn">View All Documents</a>
-                    </div>
-                </div>
             </div>
     </section>
    
